@@ -32,8 +32,9 @@ public final class R {
     }
     public static final class layout {
         public static final int activity_fragment=0x7f030000;
-        public static final int button_row=0x7f030001;
-        public static final int fragment_remote_control=0x7f030002;
+        public static final int button_last_row=0x7f030001;
+        public static final int button_row=0x7f030002;
+        public static final int fragment_remote_control=0x7f030003;
     }
     public static final class menu {
         public static final int remote_control=0x7f070000;
@@ -73,5 +74,6 @@ public final class R {
         /**  Layout styles 
          */
         public static final int RemoteButton=0x7f060002;
+        public static final int RemoteButton_ActionButton=0x7f060003;
     }
 }

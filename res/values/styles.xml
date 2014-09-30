@@ -16,7 +16,7 @@
     <style name="AppTheme" parent="AppBaseTheme">
         <!-- All customizations that are NOT specific to a particular API-level can go here. -->
     </style>
-    
+
     <!-- Layout styles -->
     <style name="RemoteButton">
         <item name="android:layout_width">0dp</item>
@@ -24,6 +24,19 @@
         <item name="android:textColor">#556699</item>
         <item name="android:textSize">20dp</item>
         <item name="android:layout_margin">3dp</item>
+    </style>
+
+    <!--
+“One is to set the parent attribute of your 
+    style to the name of the style you want to inherit
+     from. The easier way is to just prefix your style name 
+     with your parent’s style, then a dot – e.g., ParentStyleName.MyStyleName.”
+
+Excerpt From: Brian Hardy. “Android Programming: The Big Nerd Ranch Guide.” iBooks.
+    -->
+    <style name="RemoteButton.ActionButton">
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">30dp</item>
     </style>
 
 </resources>
