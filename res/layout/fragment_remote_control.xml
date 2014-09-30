@@ -6,7 +6,7 @@
     <!-- stretchColumns="*" ensures that all columns are of the same width -->
 
     <TextView
-        android:id="@+id/fragment_remote_control_selected-TextView"
+        android:id="@+id/fragment_remote_control_selected"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2"
@@ -15,7 +15,7 @@
         android:textSize="50dp" />
 
     <TextView
-        android:id="@+id/fragment_remote_control_working-TextView"
+        android:id="@+id/fragment_remote_control_working"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_margin="15dp"
