@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <!-- “A state list drawable must have a selector root element and one or more item elements that describe different states.”
+
+Excerpt From: Brian Hardy. “Android Programming: The Big Nerd Ranch Guide.” iBooks.  -->
+
+	<item android:drawable="@drawable/button_shape_normal"
+	    android:state_pressed="false" />
+	<item android:drawable="@drawable/button_shape_pressed"
+	    android:state_pressed="true" />
+</selector>
