@@ -21,7 +21,8 @@ public final class R {
         public static final int activity_vertical_margin=0x7f040001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int button_shape_normal=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
     }
     public static final class id {
         public static final int action_settings=0x7f080004;
@@ -74,6 +75,15 @@ public final class R {
         /**  Layout styles 
          */
         public static final int RemoteButton=0x7f060002;
+        /** 
+“One is to set the parent attribute of your 
+    style to the name of the style you want to inherit
+     from. The easier way is to just prefix your style name 
+     with your parent’s style, then a dot – e.g., ParentStyleName.MyStyleName.”
+
+Excerpt From: Brian Hardy. “Android Programming: The Big Nerd Ranch Guide.” iBooks.
+    
+         */
         public static final int RemoteButton_ActionButton=0x7f060003;
     }
 }
