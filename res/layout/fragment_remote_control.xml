@@ -2,7 +2,8 @@
     android:id="@+id/fragment_remote_control_tableLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:stretchColumns="*" >
+    android:stretchColumns="*"
+    android:background="@drawable/remote_background" >
     <!-- stretchColumns="*" ensures that all columns are of the same width -->
 
     <TextView
